@@ -24,7 +24,7 @@ for i in range(nrows):
     val = table.row_values(i)
     if val[0] != aa:
         aa = val[0]
-        # print(i)
+         # print(i)
         T.append(i)
         continue
     if val[1] == 1.0:
